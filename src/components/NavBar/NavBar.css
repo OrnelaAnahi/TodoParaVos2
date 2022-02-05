@@ -1,0 +1,35 @@
+.header{
+    background-color: #B958A5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tituloPrincipal{
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+}
+.nav{
+    width: 40vw;
+}
+.ulNav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.liNav{
+    margin:10px 10px 5px 10px;
+    padding: 0px;
+    transition: all 2s ease;
+    border-radius: 5px;
+}
+.liNav:hover{
+    background-color: black;
+}
+.linksNav{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.linksNav:hover{
+    color: #B958A5;
+}
