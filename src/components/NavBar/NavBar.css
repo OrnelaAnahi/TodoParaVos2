@@ -1,9 +1,6 @@
-.tituloPrincipal{
-    font-family: 'Bebas Neue', cursive;
-    float: left;
-}
 .nav{
     width: 40vw;
+    align-content: center;
 }
 .ulNav{
     list-style: none;
@@ -15,6 +12,7 @@
     padding: 0px;
     transition: all 2s ease;
     border-radius: 5px;
+    height: 25px;
 }
 .liNav:hover{
     background-color: black;
