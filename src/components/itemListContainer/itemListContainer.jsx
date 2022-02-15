@@ -1,12 +1,10 @@
-export default function ItemListContainer () {
+import ItemCount from '../ItemCount/ItemCount'
+
+export default function ItemListContainer (props) {
   return (
-    //   Texto provisional
-    <body>
-      <h2>Nuestros contactos</h2>
-      <p>Facebook</p>
-      <p>Whatsapp</p>
-      <p>Gmail</p>
-      <p>Instagram</p>
-    </body>
+    <>
+      <h2>{props.grettings}</h2>
+      <ItemCount initial={1} stock={5} onAdd='' />
+    </>
   )
 }
